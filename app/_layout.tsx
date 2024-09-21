@@ -32,6 +32,7 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+      Mayed Branch
       <Stack>
         hamza Branch
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
